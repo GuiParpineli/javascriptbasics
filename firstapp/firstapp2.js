@@ -34,6 +34,34 @@ let mediaAlturaMulheres = require('./mediaAlturaMulheres');
 mediaAlturaMulheres(pessoas);
 
 
+//total de homens
+
+let totalHomens = require('./totalHomens')
+
+totalHomens(pessoas);
+
+//media de idades das pessoas que responderam otimo
+
+let mediaOtimo = require('./mediaOtimo');
+
+mediaOtimo(pessoas);
+
+//a quantidade de pessoas que responderam regular;
+
+let notaRegular = require('./notaRegular');
+
+notaRegular(pessoas);
+
+//a porcentagem de pessoas que responderam bom entre todos os espectadores analisados.
+
+let notaBom = require('./notaBom');
+
+notaBom(pessoas);
+
+
+
+
+
 
 
 
