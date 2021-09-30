@@ -4,10 +4,8 @@ var mediaAlturaMulheres = a => {
   
   let alturaMulheres = mulheres.map(a => a.altura);
   
-  let soma_alturasF = alturaMulheres.reduce((a,b) => a + b);
-  
-  let mediaAlturasM = soma_alturasF/alturaMulheres.length;
-  
+  let mediaAlturasM = alturaMulheres.reduce((a,b) => a + b)/alturaMulheres.length;
+   
   console.log('A media de altura das mulheres é: ' + mediaAlturasM);
   
 };
